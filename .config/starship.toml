@@ -93,10 +93,10 @@ symbol = " "
 symbol = " "
 
 [memory_usage]
-symbol = " "
+symbol = "♈︎ "
 
 [package]
-symbol = " "
+symbol = "📦 "
 
 [terraform]
 format = "➜ [$symbol$workspace]($style) "
@@ -125,7 +125,7 @@ symbol = " "
 symbol = "ﯣ "
 
 [nodejs]
-format = "➜ [ Node.js $version](bold green) "
+format = "➜ [ Node.js $version](bold green) "
 detect_files = ["package.json", ".node-version"]
 detect_folders = ["node_modules"]
 symbol = " "
