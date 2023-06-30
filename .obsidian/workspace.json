@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "e4fb6d5e73ee4bb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "672de901fc844000",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f11423658bed5090",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react/0-quick-start.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6c9536fe1668289e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9601f418f7277d00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f207faee92255fd5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9d2f23ac040b8be9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "api key",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a3a977383d59625",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "1b0f22556505415f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 208.5
+  },
+  "right": {
+    "id": "9941d871b9c3b5ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdb2fdce1e8af333",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6765c868efb7884d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "react/0-quick-start.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c316406277a363ae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "react/0-quick-start.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a23994d41285fc51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8701982751d12b1f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "react/0-quick-start.md"
+              }
+            }
+          },
+          {
+            "id": "7cb253f85370cf7c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "f11423658bed5090",
+  "lastOpenFiles": [
+    "README.md",
+    "react/0-quick-start.md",
+    "react/topics/keys-in-react.md",
+    "nodejs/http/difference-between-401-vs-403.md",
+    "http/HTTP Request.md",
+    "-/attachments/nest_jwt_0.png",
+    "nodejs/http",
+    "-/attachments",
+    "-/templates",
+    "-/Untitled",
+    "react/topics/controlled-vs-uncontrolled-components.md",
+    "-/templates/TEMPLATE.md",
+    "react/topics",
+    "react/apis/1-forward-ref.md",
+    "react/apis/0-create-context.md",
+    "Untitled.md",
+    "terraform",
+    "express/api-key-auth.md",
+    "express/Untitled.md",
+    "express/jwt-auth.md",
+    "express",
+    "nodejs/express",
+    "other/Untitled",
+    "attachments/canvas/Untitled.canvas",
+    "attachments/exacalidraw/Drawing 2023-06-24 21.43.20.excalidraw.md",
+    "attachments/exacalidraw",
+    "devops/Continuos Integration.md",
+    "databases/Untitled.png",
+    "databases/SQL Básico 0054c1ac545941c1b7b7a6212a01dc0c.md",
+    "databases/SQL Avançado ceac15b91e1f42bea0fe47cb94c1dc6a.md",
+    "databases/PostgreSQL.md",
+    "databases/PostgreSQL f8169443c31c455d93d9835255413c2c.md",
+    "databases/Introdução ao SQL b96a420add72460f974d0ee2b4fd954b.md",
+    "databases/How To Install and Use PostgreSQL on Ubuntu 20 04 9601fd852851406d99effb53ed0360e0.md",
+    "databases/Entendendo SQL.md",
+    "patterns/Factory Pattern.md",
+    "devops/Continuos Delivery.md",
+    "devops/aws/extend-file-system.md",
+    "devops/aws/aws-session-manager.md",
+    "Pasted image 20230616160314.png",
+    "excalidraw/Drawing 2023-06-16 13.47.00.excalidraw.png",
+    "Pasted image 20230616134715.png",
+    "zendesk/images/zendesk_oauth_ss_0.png",
+    "excalidraw/Drawing 2023-06-12 13.17.09.excalidraw.png",
+    "Pasted image 20230612131814.png",
+    "Pasted image 20230612131829.png",
+    "Pasted image 20230612131809.png",
+    "Untitled.canvas",
+    "apps/Untitled.canvas"
+  ]
+}
