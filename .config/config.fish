@@ -4,5 +4,6 @@ and not set -q TMUX
 end
 
 source ~/.asdf/asdf.fish
+source ~/.bash_aliases
 
 starship init fish | source
