@@ -129,4 +129,4 @@ cursor:
 
 working_directory: None
 
-alt_send_esc: true
+#alt_send_esc: true
