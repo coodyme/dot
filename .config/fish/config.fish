@@ -1,6 +1,9 @@
-if status is-interactive
-and not set -q TMUX
-    exec tmux -u new -A -D -t f4h
+function fish_greeting
+end
+
+if set -q ZELLIJ
+else
+  zellij
 end
 
 source ~/.asdf/asdf.fish

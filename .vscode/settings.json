@@ -415,7 +415,7 @@
     "**/*.txt"
   ],
   "codeQL.telemetry.enableTelemetry": true,
-  "workbench.colorTheme": "Infinity Dark",
+  "workbench.colorTheme": "Default Dark Modern",
   "terminal.explorerKind": "external",
   "xstate.nestTypegenFiles": false
 }

@@ -12,7 +12,7 @@ window:
   dynamic_padding: false
 
   # Startup Mode (changes require restart)
-  startup_mode: Windowed
+  startup_mode: Fullscreen
 
   # Window decorations
   #
@@ -25,7 +25,7 @@ window:
   # padding top and left
   padding:
     x: 20
-    y: 5
+    y: 30
 
   opacity: 1
 
@@ -45,6 +45,7 @@ font:
     style: Italic
   size: 13
 
+# Theme
 colors:
   primary:
     background: "#111111"
@@ -121,12 +122,14 @@ cursor:
   #   - ▇ Block
   #   - _ Underline
   #   - | Beam
-  style: Block
+  style:
+    shape: Block
+    blinking: Always
+  blink_interval: 500
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
   unfocused_hollow: true
 
 working_directory: None
-
 #alt_send_esc: true
