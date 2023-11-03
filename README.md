@@ -49,6 +49,21 @@ Now, install plugins for `Oh My Zsh`:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
+Install `asdf` for managing multiple runtime versions:
+
+```bash
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+```
+
+Install `asdf` plugins:
+
+```bash
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install nodejs latest
+asdf global nodejs latest
+asdf local nodejs latest
+```
+
 ## 🔥 Applications
 
 Various applications for Linux and macOS.

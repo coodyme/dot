@@ -17,10 +17,7 @@ plugins=(
 # Source
 source $ZSH/oh-my-zsh.sh
 
-# -------------------------------- #
 # Git Aliases
-# -------------------------------- #
-
 # Go to project root
 alias grt='cd "$(git rev-parse --show-toplevel)"'
 
