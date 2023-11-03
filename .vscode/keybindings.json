@@ -1,10 +1,6 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "ctrl+shift+enter",
-    "command": "python.execInTerminal"
-  },
-  {
     "key": "shift+space",
     "command": "cursorEnd",
     "when": "textInputFocus"
@@ -15,73 +11,8 @@
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+shift+e",
-    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-    "when": "inFilesPicker && inQuickOpen"
-  },
-  {
-    "key": "ctrl+2",
-    "command": "workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled"
-  },
-  {
-    "key": "ctrl+shift+e",
-    "command": "-workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled"
-  },
-  {
-    "key": "ctrl+1",
-    "command": "workbench.debug.action.toggleRepl",
-    "when": "workbench.panel.repl.view.active"
-  },
-  {
-    "key": "ctrl+shift+y",
-    "command": "-workbench.debug.action.toggleRepl",
-    "when": "workbench.panel.repl.view.active"
-  },
-  {
-    "key": "ctrl+3",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
-  },
-  {
-    "key": "ctrl+shift+g g",
-    "command": "-workbench.view.scm",
-    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
-  },
-  {
-    "key": "ctrl+4",
-    "command": "workbench.view.debug",
-    "when": "viewContainer.workbench.view.debug.enabled"
-  },
-  {
-    "key": "ctrl+shift+d",
-    "command": "-workbench.view.debug",
-    "when": "viewContainer.workbench.view.debug.enabled"
-  },
-  {
-    "key": "ctrl+5",
-    "command": "workbench.view.extension.bookmarks"
-  },
-  {
     "key": "ctrl+/",
     "command": "editor.action.blockComment",
     "when": "editorTextFocus && !editorReadonly"
   },
-  {
-    "key": "alt+1",
-    "command": "workbench.action.focusFirstEditorGroup"
-  },
-  {
-    "key": "ctrl+1",
-    "command": "-workbench.action.focusFirstEditorGroup"
-  },
-  {
-    "key": "alt+2",
-    "command": "workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "ctrl+2",
-    "command": "-workbench.action.focusSecondEditorGroup"
-  }
 ]

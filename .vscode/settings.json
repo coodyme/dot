@@ -406,7 +406,7 @@
     },
     "editor.formatOnSave": false
   },
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "vsicons.dontShowNewVersionMessage": true,
   // Grammarly
   "grammarly.files.include": [
@@ -415,7 +415,7 @@
     "**/*.txt"
   ],
   "codeQL.telemetry.enableTelemetry": true,
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "GitHub Dark",
   "terminal.explorerKind": "external",
   "xstate.nestTypegenFiles": false
 }
