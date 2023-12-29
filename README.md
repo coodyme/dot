@@ -78,6 +78,18 @@ wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 ~/
   && rm ~/Downloads/vscode.deb
 ```
 
+- Termius
+- GitKraken
+- Bruno https://www.youtube.com/watch?v=b_ctmKlEOXg&t=58s
+- MongoDB Compass
+- Redis Insight
+- Android Studio
+- Datagrip
+- GoLand
+- RustRover
+- WriteSide
+- Jetbrains Tools
+
 ### macOS
 
 Under construction...
