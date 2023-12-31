@@ -78,6 +78,28 @@ wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 ~/
   && rm ~/Downloads/vscode.deb
 ```
 
+# termius
+wget https://www.termius.com/download/linux/Termius.deb -O termius.deb
+
+sudo apt-get install ./termius.deb -y
+
+rm termius.deb
+
+# Git
+sudo apt-get install git
+
+
+# chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
+
+sudo apt-get install ./chrome.deb -y
+
+rm chrome.deb
+
+
+sudo apt-get remove firefox
+
+
 - Termius
 - GitKraken
 - Bruno https://www.youtube.com/watch?v=b_ctmKlEOXg&t=58s
