@@ -120,6 +120,10 @@ Under construction...
 
 Various CLI's for Linux and macOS.
 
+# Lazy Docker
+
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+
 ## 👻 Gnome & Ubuntu
 
 Some customizations for Gnome and Ubuntu.
