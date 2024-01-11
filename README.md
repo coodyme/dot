@@ -33,8 +33,15 @@ sudo apt install curl \
 Remove default `.zshrc` and copy the our `.zshrc` file to the home directory:
 
 ```bash
-rm ~/.zshrc \
-  && cp .zshrc ~/
+rm ~/.zshrc
+```
+
+```bash
+cp .zshrc ~/
+```
+
+```bash
+cp .bash_aliases ~/
 ```
 
 Copy `starship.toml` to the config directory:
@@ -127,6 +134,12 @@ curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/i
 ## 👻 Gnome & Ubuntu
 
 Some customizations for Gnome and Ubuntu.
+
+### Fuse to run App Image
+
+```bash
+sudo apt-get install -y libfuse2
+```
 
 ### Tweaks
 

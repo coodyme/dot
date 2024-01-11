@@ -1,6 +1,4 @@
 {
-  // Workbench
-  "workbench.activityBar.visible": true,
   "workbench.editor.tabCloseButton": "right",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "newUntitledFile",
@@ -45,9 +43,9 @@
   "editor.stickyScroll.enabled": true,
   "editor.hover.sticky": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
-    "source.organizeImports": false
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.codeLensFontFamily": "Fira Code",
@@ -402,7 +400,7 @@
   "[json]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": false
+      "source.fixAll.eslint": "never"
     },
     "editor.formatOnSave": false
   },
@@ -417,5 +415,11 @@
   "codeQL.telemetry.enableTelemetry": true,
   "workbench.colorTheme": "GitHub Dark",
   "terminal.explorerKind": "external",
-  "xstate.nestTypegenFiles": false
+  "xstate.nestTypegenFiles": false,
+  "workbench.editor.tabActionLocation": "right",
+  "[javascript][typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  }
 }
