@@ -1,20 +1,19 @@
 {
-  "workbench.editor.tabCloseButton": "right",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
   "workbench.editor.labelFormat": "short",
-  "workbench.iconTheme": "vscode-icons",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.limit.value": 5,
   // Editor
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
+  "editor.lineHeight": 21,
   "editor.suggest.showMethods": true,
   "editor.suggest.preview": true,
   "editor.acceptSuggestionOnEnter": "on",
@@ -48,13 +47,11 @@
     "source.organizeImports": "never"
   },
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-  "editor.codeLensFontFamily": "Fira Code",
+  "editor.codeLensFontFamily": "JetBrains Mono",
   // Extensions
   "extensions.autoUpdate": "onlyEnabledExtensions",
   "extensions.ignoreRecommendations": true,
   // Terminal
-  "terminal.external.linuxExec": "fish",
-  "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.env.linux": {},
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "block",
@@ -63,7 +60,7 @@
   "terminal.integrated.shellIntegration.enabled": false,
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "terminal.integrated.fontFamily": "monospace",
   "terminal.integrated.profiles.linux": {
     "fish": {
       "path": "fish"
@@ -111,9 +108,6 @@
   "git.untrackedChanges": "separate",
   "git.autofetch": true,
   "git.enableSmartCommit": true,
-  // Python
-  "python.terminal.activateEnvironment": true,
-  "python.languageServer": "Pylance",
   // JavaScript
   "javascript.referencesCodeLens.enabled": true,
   "javascript.referencesCodeLens.showOnAllFunctions": true,
@@ -140,12 +134,6 @@
   },
   // Bread Crumbs
   "breadcrumbs.enabled": true,
-  // Material Icon
-  "material-icon-theme.activeIconPack": "angular",
-  "material-icon-theme.folders.associations": {
-    "directives": "batch",
-    "modules": "stack",
-  },
   // Telemetry
   "redhat.telemetry.enabled": false,
   "telemetry.telemetryLevel": "off",

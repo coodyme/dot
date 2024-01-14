@@ -20,16 +20,28 @@ wget https://www.termius.com/download/linux/Termius.deb ~/Downloads/termius.deb 
   && rm ~/Downloads/termius.deb
 ```
 
-Setup `Oh My Zsh` & `Starship`:
+Setup `ZSH`, `Oh My Zsh` & `Starship`:
 
 ```bash
-sudo apt install curl \
-  && sudo apt install zsh \
-  && sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" \
-  && chsh -s $(which zsh) \
-  && sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes \
-  && cd ~
+sudo apt install curl
 ```
+
+```bash
+sudo apt install
+```
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+```bash
+chsh -s $(which zsh)
+```
+
+```bash
+sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes
+```
+
 Remove default `.zshrc` and copy the our `.zshrc` file to the home directory:
 
 ```bash
@@ -129,7 +141,9 @@ Various CLI's for Linux and macOS.
 
 # Lazy Docker
 
-curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+```bash
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh 
+```
 
 ## 👻 Gnome & Ubuntu
 
@@ -165,10 +179,12 @@ Media codecs:
 sudo apt install ubuntu-restricted-extras
 ```
 
+### Fonts
+
 Install custom fonts and update cache:
 
 ```bash
-cp -r fonts/* ~/.local/share/fonts/
-
-fc-cache -fv
+sudo cp -r fonts/* /usr/share/fonts/
 ```
+
+and reload cache `fc-cache -f -v`
