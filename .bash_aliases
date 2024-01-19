@@ -56,3 +56,10 @@ alias ghci='gh run list -L 1'
 
 alias vmr='VBoxManage list runningvms'
 alias vms='VBoxManage list vms'
+
+alias mp='multipass'
+alias mpls='multipass list'
+alias mpn='multipass networks'
+alias mpa='multipass aliases'
+alias mpf='multipass find'
+alias mpl='multipass launch'
