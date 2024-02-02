@@ -97,6 +97,12 @@ sudo apt install ./vscode.deb \
 rm ./vscode.deb
 ```
 
+Copy the settings and keybindings to the user directory:
+
+```bash
+sudo cp -r vscode/* ~./config//Code/User
+```
+
 # termius
 wget https://www.termius.com/download/linux/Termius.deb -O termius.deb
 
