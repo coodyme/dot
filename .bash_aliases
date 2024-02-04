@@ -4,7 +4,6 @@ alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
-alias lah='ls -lah'
 
 # Gitmoji
 alias gmc='gitmoji commit'
@@ -59,3 +58,15 @@ alias mpl='multipass launch'
 
 # Lazydocker
 alias lzd='lazydocker'
+
+# Docker
+alias dcls='docker container ls'
+alias dclsa='docker container ls -a'
+alias dvls='docker volume ls'
+alias dnls='docker network ls'
+alias dils='docker image ls'
+alias dilsa='docker image ls -a'
+alias dsp='docker system prune -a'
+alias dvp='docker volume prune -a'
+alias de='docker exec -it'
+alias dl='docker logs'
