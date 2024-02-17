@@ -70,3 +70,7 @@ alias dsp='docker system prune -a'
 alias dvp='docker volume prune -a'
 alias de='docker exec -it'
 alias dl='docker logs'
+
+# Copilot
+alias ghcs='gh copilot suggest'
+alias ghce='gh copilot explain'
