@@ -113,6 +113,8 @@ rm termius.deb
 # Git
 sudo apt-get install git
 
+# xclip
+sudo apt-get install xclip
 
 # chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
