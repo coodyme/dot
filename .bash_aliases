@@ -74,3 +74,8 @@ alias dl='docker logs'
 # Copilot
 alias ghcs='gh copilot suggest'
 alias ghce='gh copilot explain'
+
+# Kill Process on Port
+alias knest='lsof -ti :3333 | xargs kill -9'
+alias kvite='lsof -ti :5173 | xargs kill -9'
+alias kexpress='lsof -ti :3000 | xargs kill -9'
