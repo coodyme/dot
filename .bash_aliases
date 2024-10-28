@@ -60,7 +60,7 @@ alias mpl='multipass launch'
 alias lzd='lazydocker'
 
 # Lazygit
-alias lzd='lazygit'
+alias lzg='lazygit'
 
 # Docker
 alias dcls='docker container ls'
