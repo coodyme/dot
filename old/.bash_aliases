@@ -5,9 +5,6 @@ alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
 
-# Gitmoji
-alias gmc='gitmoji commit'
-
 # Git
 alias grt='cd "$(git rev-parse --show-toplevel)"' # Go to project root
 alias gs='git status'
@@ -43,10 +40,6 @@ alias gxn='git clean -dn'
 alias gx='git clean -df'
 alias gsha='git rev-parse HEAD | pbcopy'
 alias ghci='gh run list -L 1'
-
-# Virtualbox
-alias vmr='VBoxManage list runningvms'
-alias vms='VBoxManage list vms'
 
 # Multipass
 alias mp='multipass'

@@ -9,3 +9,6 @@ Install Brew
 ```
 
 brew install gitkraken-cli
+
+
+brew install starship
