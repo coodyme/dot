@@ -36,3 +36,10 @@ Development Tools
 
 Fonts
 - [ ] Replace JetBrains Mono with https://monaspace.githubnext.com
+
+
+TODO
+- GH CLI Extensions
+https://github.com/seachicken/gh-poi
+https://github.com/github/gh-copilot
+https://github.com/github/gh-skyline

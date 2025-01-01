@@ -75,3 +75,6 @@ alias ghce='gh copilot explain'
 alias knest='lsof -ti :3333 | xargs kill -9'
 alias kvite='lsof -ti :5173 | xargs kill -9'
 alias kexpress='lsof -ti :3000 | xargs kill -9'
+
+# NPM
+npx npkill -gb -nu -x 
