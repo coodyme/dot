@@ -32,7 +32,8 @@ Development Tools
 - [ ] Multipass
 - [ ] Github CLI
 - [ ] GitKraken CLI
-- [ ] AWS CLI
+- [ ] AWS CLI 
+- [ ] OrbStack brew install orbstack (macOS only)
 
 Fonts
 - [ ] Replace JetBrains Mono with https://monaspace.githubnext.com
