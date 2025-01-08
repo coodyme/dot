@@ -34,6 +34,7 @@ Development Tools
 - [ ] GitKraken CLI
 - [ ] AWS CLI 
 - [ ] OrbStack brew install orbstack (macOS only)
+- [ ] HTTPie https://httpie.io/cli
 
 Fonts
 - [ ] Replace JetBrains Mono with https://monaspace.githubnext.com
