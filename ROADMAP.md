@@ -35,6 +35,7 @@ Development Tools
 - [ ] AWS CLI 
 - [ ] OrbStack brew install orbstack (macOS only)
 - [ ] HTTPie https://httpie.io/cli
+- [ ] Github Copilot for xCode brew install --cask github-copilot-for-xcode
 
 Fonts
 - [ ] Replace JetBrains Mono with https://monaspace.githubnext.com
