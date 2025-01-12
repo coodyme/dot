@@ -1,10 +1,14 @@
 # Dot
 
+DISCLAIMER: This project is in the early stages of development. Use it at your own risk.
+
+Feel free to contribute to the project by creating a **Pull Request**.
+
+## Introduction
+
 Tired of setting up your development environment every time you start a new project or format your computer? 
 
 `Dot` is a simple tool that allows you to automate the process of setting up your development environment. 🚀
-
-There are two types of setups you can use:
 
 `Headless`: Run the setup in a remote server or a virtual machine, and connect via **ssh** from your main PC. (Compatible with `Debian-based` systems).
 
@@ -12,39 +16,15 @@ There are two types of setups you can use:
 
 > Require a fresh install of `Debian-based` systems like `Ubuntu Server 24.04+`.
 
-`GUI`: Run the setup in your main PC, and use the graphical interface to interact with your development environment.
+`GUI (Optional)`: Run this if you want to install various applications and tools in your main PC that helps in your development environment. (Compatible with `macOS` and `Ubuntu 24.04+`).
 
-> The main advantage of this setup is that you can use a single machine for development and personal use, without the need to connect to a remote server. 
-
-> Require a fresh install of `Ubuntu 24.04+`.
-
-## Extra Features
-
-There are some extra scripts that you can use to manually install some applications and tools:
-
-- Install Brew
-- Install Multipass
-- Install Starship
-- Install Termius
-- Install JetBrains Toolbox
-- Install Brave Browser
-- Install Firefox
-- Install Google Chrome
-- Install Spotify
-- Install AnyDesk
-- Install TradingView
-- Install TablePlus
-- Install ClickUp
-- Install Trezor Suite
-- Install Visual Studio Code
-
-> There scripts are available for `Debian-based` systems and `macOS`.
+> This setup will check if you are running `macOS` or `Ubuntu` and install the necessary packages and tools.
 
 > For `debian-based` systems, will use **apt** to install the packages, and for `macOS`, will use **brew**.
 
 ## Install
 
-Just run the following command in your terminal (Not working yet):
+Just run the following command in your terminal:
 
 ```bash
 wget -qO- https://coody.me/dot/install | bash

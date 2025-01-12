@@ -9,6 +9,6 @@ Install Brew
 ```
 
 brew install gitkraken-cli
-
+gh extension install github/gh-copilot
 
 brew install starship

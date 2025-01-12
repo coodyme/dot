@@ -4,6 +4,8 @@ alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
+alias fc='find . -mindepth 1 -type d | wc -l'
+alias fct='find . -mindepth 1 -maxdepth 1 -type d | wc -l'
 
 # Git
 alias grt='cd "$(git rev-parse --show-toplevel)"' # Go to project root
@@ -77,4 +79,4 @@ alias kvite='lsof -ti :5173 | xargs kill -9'
 alias kexpress='lsof -ti :3000 | xargs kill -9'
 
 # NPM
-npx npkill -gb -nu -x 
+alias npk='npx npkill -gb -nu -x'
