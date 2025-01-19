@@ -6,6 +6,8 @@ alias ll='ls -alF'
 alias ls='ls --color=auto'
 alias fc='find . -mindepth 1 -type d | wc -l'
 alias fct='find . -mindepth 1 -maxdepth 1 -type d | wc -l'
+alias listen='sudo netstat -tulpn | grep LISTEN'
+alias stail='tail -f /var/log/syslog'
 
 # Git
 alias grt='cd "$(git rev-parse --show-toplevel)"' # Go to project root
@@ -68,6 +70,7 @@ alias dsp='docker system prune -a'
 alias dvp='docker volume prune -a'
 alias de='docker exec -it'
 alias dl='docker logs'
+alias dck='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
 # Copilot
 alias ghcs='gh copilot suggest'
