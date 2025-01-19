@@ -1,3 +1,4 @@
+# TODO: Split into multiple files, like: macos_aliases, linux_aliases, git_aliases, etc.
 # System
 alias grep='grep --color=auto'
 alias l='ls -CF'
