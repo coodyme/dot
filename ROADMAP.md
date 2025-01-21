@@ -46,3 +46,6 @@ TODO
 https://github.com/seachicken/gh-poi
 https://github.com/github/gh-copilot
 https://github.com/github/gh-skyline
+
+
+https://github.com/nektos/act - Run GitHub Actions locally
