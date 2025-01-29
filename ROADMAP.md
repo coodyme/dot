@@ -49,3 +49,8 @@ https://github.com/github/gh-skyline
 
 
 https://github.com/nektos/act - Run GitHub Actions locally
+
+- Add git config verified
+- git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
+git config --global commit.gpgsign true
